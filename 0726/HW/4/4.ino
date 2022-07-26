@@ -9,12 +9,9 @@ LED3  XXOOXOOX...
 
 //즉 2개씩 켜지도록 설계
 
-//IO설정
-const int LED1 = 7;
-const int LED2 = 6;
-const int LED3 = 5;
-const int SWITCH = 10;
-//전역변수
+int LED1 = 7;
+int LED2 = 6;
+int LED3 = 5;
 unsigned long i = 1;
 
 void setup()
@@ -22,28 +19,30 @@ void setup()
   pinMode(LED1, OUTPUT);
   pinMode(LED2, OUTPUT);
   pinMode(LED3, OUTPUT);
-  pinMode(SWITCH, INPUT);
+  Serial.begin(9600);
+  
 }
 
-void fast_switch(){
-  if (digitalRead(SWITCH) == LOW)
-  {
-    delay(500); 
-  }
-  else
-  {
-    delay(1000);
-  }
+void potentiometer()
+{
+  int val = analogRead(A0);
+  
+  int delay_time = 1000/(1+9*val/1023);   //0이면 1000, 1023이면 100
+  Serial.print("potentiometer val : ");
+  Serial.print(val);
+  Serial.print(", delay_time : ");
+  Serial.println(delay_time);
+  delay(delay_time); 
 }
-
 
 void loop()
 {
   if(i==1){
+    
     digitalWrite(LED1, HIGH);
     digitalWrite(LED2, LOW);
     digitalWrite(LED3, LOW);
-    fast_switch();
+    potentiometer();
     i++;
   }
   else{
@@ -54,7 +53,7 @@ void loop()
         digitalWrite(LED1, LOW);
         digitalWrite(LED2, HIGH);
         digitalWrite(LED3, HIGH);
-        fast_switch();
+        potentiometer();
         i++;
       }
       else if(i%3==1)
@@ -62,7 +61,7 @@ void loop()
         digitalWrite(LED1, HIGH);
         digitalWrite(LED2, LOW);
         digitalWrite(LED3, HIGH);
-        fast_switch();
+        potentiometer();
         i++;
       }
       else if(i%3==2)
@@ -70,7 +69,7 @@ void loop()
         digitalWrite(LED1, HIGH);
         digitalWrite(LED2, HIGH);
         digitalWrite(LED3, LOW);
-        fast_switch();
+        potentiometer();
         i++;
       }
       
