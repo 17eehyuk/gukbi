@@ -12,7 +12,7 @@ const int LED3 = 5;
 const int SWITCH = 10;
 
 /**********LED1, LED2**********/
-int pre_millis = 0;
+unsigned long pre_millis = 0;
 int LED_state = 1; 
 /*************************/
 
@@ -26,7 +26,7 @@ void setup() {
 
 void loop() {
   //LED1, LED2
-  int cur_millis = millis();
+  unsigned long cur_millis = millis();
   if(cur_millis - pre_millis >= 1000)
   {
     pre_millis = cur_millis; 
