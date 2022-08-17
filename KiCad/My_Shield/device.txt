@@ -1,0 +1,17 @@
+footprint 추가
+https://www.snapeda.com/parts/SN74AHCT595N/Texas%20Instruments/view-part/?ref=search&amp;company=hongik&amp;t=SN74AHCT595N
+
+PCB 로고
+https://www.miricanvas.com/
+
+dip 스위치
+https://www.mouser.kr/ProductDetail/CUI-Devices/DS01-254-L-01BE?qs=wnTfsH77Xs4oJE51LF1cMQ%3D%3D&mgh=1&gclid=Cj0KCQjwgO2XBhCaARIsANrW2X26GVCq7hnOsJyQw0OwkcRnLj0I4mgM2pemlT1UmCDODUUWy5Ou594aAjcpEALw_wcB
+
+7 Segment
+https://www.mouser.kr/ProductDetail/Lite-On/LTC-4627JR?qs=WxFF5lh7QM3%252BoGt5Rn2nWQ%3D%3D&mgh=1&gclid=Cj0KCQjwgO2XBhCaARIsANrW2X1EBuFrEAu1-xXpB-K9MbDsMTBqaxTOzQdICKvvCzoQ1E6SqmLkBoAaAp5TEALw_wcB
+
+저항(220)
+https://www.mouser.kr/ProductDetail/YAGEO/CFR-25JR-52-220R?qs=19cKSROHwrDd9peoB7SMkA%3D%3D&mgh=1&gclid=Cj0KCQjwgO2XBhCaARIsANrW2X3KrFm4XR3XN9yzzV7yyMhmdU1PJzI0LK4NkBdqDbyKthu1ME4v8CcaAuMvEALw_wcB
+
+부저
+https://www.mouser.kr/ProductDetail/CUI-Devices/CMI-1275-85T?qs=P1JMDcb91o5gA95wkRh7OA%3D%3D

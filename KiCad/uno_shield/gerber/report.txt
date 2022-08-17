@@ -1,0 +1,11 @@
+Plotted to 'D:\gukbi\KiCad\uno_shield\gerber\uno_shield-F_Cu.gbr'.
+Plotted to 'D:\gukbi\KiCad\uno_shield\gerber\uno_shield-B_Cu.gbr'.
+Plotted to 'D:\gukbi\KiCad\uno_shield\gerber\uno_shield-F_Paste.gbr'.
+Plotted to 'D:\gukbi\KiCad\uno_shield\gerber\uno_shield-B_Paste.gbr'.
+Plotted to 'D:\gukbi\KiCad\uno_shield\gerber\uno_shield-F_Silkscreen.gbr'.
+Plotted to 'D:\gukbi\KiCad\uno_shield\gerber\uno_shield-B_Silkscreen.gbr'.
+Plotted to 'D:\gukbi\KiCad\uno_shield\gerber\uno_shield-F_Mask.gbr'.
+Plotted to 'D:\gukbi\KiCad\uno_shield\gerber\uno_shield-B_Mask.gbr'.
+Plotted to 'D:\gukbi\KiCad\uno_shield\gerber\uno_shield-Edge_Cuts.gbr'.
+거버 작업 파일 'D:\gukbi\KiCad\uno_shield\gerber\uno_shield-job.gbrjob'을(를) 생성하였습니다.
+정보: 완료.
