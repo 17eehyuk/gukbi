@@ -1,4 +1,4 @@
-20393246873680620
+20398230321849761
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -53099,8 +53099,8 @@ Hyuk_Library
 
 
 0
-0
-0
+16
+16
 Hyuk_Library
 Atmega128p-TQFP
 
@@ -53116,12 +53116,33 @@ Logo
 0
 0
 Hyuk_Library
+Logo_220822
+
+
+0
+0
+0
+Hyuk_Library
+Logo_220822_1
+
+
+0
+0
+0
+Hyuk_Library
 My_LED
 
 
 0
 2
 2
+Hyuk_Library
+NW3-TS-G008
+
+
+0
+4
+4
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
