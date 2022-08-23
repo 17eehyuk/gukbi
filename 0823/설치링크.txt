@@ -1,0 +1,5 @@
+VMware player
+https://www.vmware.com/kr/products/workstation-player/workstation-player-evaluation.html
+
+Ubuntu 18.04 (Desktop, Server 둘다 다운)
+https://releases.ubuntu.com/18.04.6/?_ga=2.175274466.1159755694.1661214189-356490732.1661214189
