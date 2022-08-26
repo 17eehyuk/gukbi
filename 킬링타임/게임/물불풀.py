@@ -88,6 +88,11 @@ while True:
         A_HP = 0
     if B_HP < 0:
         B_HP = 0 
+    
+    if B_HP == 0:
+        print('승리')
+        break
+    
     player_A[A_Monster][1] = A_HP
     player_B[B_Monster][1] = B_HP
 
