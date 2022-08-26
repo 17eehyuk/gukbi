@@ -1,6 +1,11 @@
 
 // https://docs.pixycam.com/wiki/doku.php?id=wiki:v2:hooking_up_pixy_to_a_microcontroller_-28like_an_arduino-29
 
+
+/*
+ sig : set signature
+
+*/
   
 #include <Pixy2.h>
 
@@ -9,7 +14,7 @@ Pixy2 pixy;
 
 void setup()
 {
-  Serial.begin(115200);
+  Serial.begin(9600);
   Serial.print("Starting...\n");
   
   pixy.init();
@@ -33,5 +38,6 @@ void loop()
       Serial.print(": ");
       pixy.ccc.blocks[i].print();
     }
-  }  
+  }
+  delay(500);
 }
