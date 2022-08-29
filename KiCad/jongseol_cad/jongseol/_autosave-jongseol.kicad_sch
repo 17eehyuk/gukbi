@@ -2073,7 +2073,7 @@
   (symbol (lib_id "power:GND") (at 110.49 123.19 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 358c03c9-9a4f-4366-b762-cafd1c5870f6)
-    (property "Reference" "#PWR?" (id 0) (at 104.14 123.19 0)
+    (property "Reference" "#PWR012" (id 0) (at 104.14 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 106.68 124.46 0))
@@ -2117,7 +2117,7 @@
   (symbol (lib_id "power:+5V") (at 110.49 146.05 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a405ec44-e794-49b9-8084-aaa4d6f0bec2)
-    (property "Reference" "#PWR?" (id 0) (at 114.3 146.05 0)
+    (property "Reference" "#PWR013" (id 0) (at 114.3 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (id 1) (at 107.442 145.6944 90)
@@ -2155,7 +2155,7 @@
   (symbol (lib_id "My_Symbol:8_channel_relay") (at 113.03 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid dd4217a1-6732-48bb-ac15-01dbaea2d68a)
-    (property "Reference" "R?" (id 0) (at 119.38 133.3499 0)
+    (property "Reference" "R1" (id 0) (at 119.38 133.3499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "8_channel_relay" (id 1) (at 119.38 135.8899 0)
@@ -2239,10 +2239,10 @@
       (reference "#PWR011") (unit 1) (value "GND") (footprint "")
     )
     (path "/358c03c9-9a4f-4366-b762-cafd1c5870f6"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR012") (unit 1) (value "GND") (footprint "")
     )
     (path "/a405ec44-e794-49b9-8084-aaa4d6f0bec2"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+      (reference "#PWR013") (unit 1) (value "+5V") (footprint "")
     )
     (path "/2186f868-11e1-407e-8b52-aaf674efb8f2"
       (reference "E1") (unit 1) (value "ESP32") (footprint "My_Lib:ESP32")
@@ -2269,7 +2269,7 @@
       (reference "J7") (unit 1) (value "Communication") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
     )
     (path "/dd4217a1-6732-48bb-ac15-01dbaea2d68a"
-      (reference "R?") (unit 1) (value "8_channel_relay") (footprint "My_Lib:8_channel_relay")
+      (reference "R1") (unit 1) (value "8_channel_relay") (footprint "My_Lib:8_channel_relay")
     )
     (path "/e8312ae2-495e-410d-844e-b1c4504481e0"
       (reference "U1") (unit 1) (value "ultrasonic_sensor") (footprint "My_Lib:ultrasonic_sensor")
