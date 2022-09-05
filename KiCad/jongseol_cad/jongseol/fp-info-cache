@@ -1,4 +1,4 @@
-20408191182091792
+20409855233021707
 Arduino_MountingHole
 MountingHole_1.2mm
 Mounting Hole 2.1mm, no annular
@@ -60304,6 +60304,13 @@ ESP32
 0
 16
 16
+My_Lib
+MH_FMD_Buzzer
+
+
+0
+3
+3
 My_Lib
 ultrasonic_sensor
 
