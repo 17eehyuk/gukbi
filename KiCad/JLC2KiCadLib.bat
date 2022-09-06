@@ -1,0 +1,1 @@
+JLC2KiCadLib %1 -dir MyLib -schematic_lib MyLib
